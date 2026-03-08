@@ -3,7 +3,7 @@ from typing import Optional, List
 from datetime import datetime
 
 # model
-from models import Book, BookCreate, BookResponse, BookUpdate
+from models.schema import BookCreate, BookResponse, BookUpdate
 
 app = FastAPI(
     title="My Book Collection API",
