@@ -3,7 +3,7 @@ from sqlalchemy.sql import func
 from database import Base
 
 
-class BookBD(Base):
+class Book(Base):
     """
     SQLAlchemy Model for Books table
     """
